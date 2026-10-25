@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "lambda:InvokeFunction",
+        "lambda:GetFunction",
+        "lambda:GetFunctionConfiguration",
+        "lambda:UpdateFunctionConfiguration",
+        "lambda:PublishVersion",
+        "lambda:GetAlias",
+        "lambda:UpdateAlias",
+        "lambda:GetAccountSettings",
+        "lambda:PutProvisionedConcurrencyConfig",
+        "lambda:GetProvisionedConcurrencyConfig",
+        "lambda:DeleteProvisionedConcurrencyConfig"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

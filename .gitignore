@@ -1,0 +1,16 @@
+# Large Azure dataset files
+data/azure/*.csv
+azurefunctions2019.tar.xz
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store

@@ -1,0 +1,13 @@
+phase,rtt_ms,cold,init_ms,init_type,env_id,handler_ms,error
+A reactive (no pre-warming),682.5,False,0.0,on-demand,b4c0a5e2,600.1,
+A reactive (no pre-warming),709.4,False,0.0,on-demand,c219c2f7,600.1,
+B proactive (predicted correctly),745.8,False,0.0,on-demand,2bd5dd37,600.1,
+B proactive (predicted correctly),772.3,False,0.0,on-demand,2c9545d0,600.1,
+C under-predicted (surprise burst),674.6,False,0.0,on-demand,2bd5dd37,600.1,
+C under-predicted (surprise burst),669.1,False,0.0,on-demand,2c9545d0,600.1,
+C under-predicted (surprise burst),2810.5,True,1882.63,on-demand,1b2eb786,600.1,
+C under-predicted (surprise burst),2708.8,True,1885.48,on-demand,eedbbc23,600.1,
+D after reactive burst mode,643.1,False,0.0,on-demand,075f41c6,600.1,
+D after reactive burst mode,640.6,False,0.0,on-demand,2c9545d0,600.1,
+D after reactive burst mode,639.8,False,0.0,on-demand,1b2eb786,600.1,
+D after reactive burst mode,639.1,False,0.0,on-demand,2bd5dd37,600.1,

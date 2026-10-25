@@ -1,0 +1,6 @@
+,requests,cold_starts,cold_start_%,avg_ms,p95_ms,p99_ms,p99.9_ms,sla_violation_%,pc_utilization_%,utilization_%,pc_instance_hours,cost_usd,energy_wh,extra_usd_per_1000_cold_starts_avoided
+On-demand only (no PC),159763.0,449.0,0.28,205.2,294.4,358.4,2012.1,0.28,,5.0,0.0,0.30511,119.37,
+Static PC = 6,159763.0,401.0,0.25,204.6,294.3,357.0,2008.5,0.25,5.9,4.7,86.8,0.89144,125.86,12.215
+Reactive target-tracking PC,159763.0,248.0,0.16,202.9,293.6,352.8,1971.6,0.16,3.9,3.3,220.97,1.85183,174.76,7.695
+ML forecast only (no fail-safe),159763.0,174.0,0.11,202.1,293.3,350.9,1939.7,0.11,5.6,4.6,138.37,1.24238,127.97,3.408
+LambdaWarm: ML + fail-safes,159763.0,405.0,0.25,204.7,294.3,357.2,2009.1,0.25,4.2,3.1,200.07,1.69993,183.91,31.7

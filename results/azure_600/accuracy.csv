@@ -1,0 +1,8 @@
+Forecast target,Model,RMSE,MAE,WAPE_%,MAPE_%,coverage_%
+Peak concurrency,LightGBM (mean),1.62,1.09,12.53,16.23,
+Peak concurrency,"LightGBM (90th pct, drives PC)",1.58,1.19,13.62,18.72,76.01
+Peak concurrency,Baseline: max of last 5 min,2.03,1.4,16.09,21.12,
+Peak concurrency,Baseline: same window yesterday,1.81,1.21,13.89,17.31,
+Invocations/min,LightGBM (mean),25.54,16.2,6.75,15.92,
+Invocations/min,Baseline: max of last 5 min,38.63,24.98,10.42,20.63,
+Invocations/min,Baseline: same window yesterday,27.78,18.03,7.52,16.87,
